@@ -65,6 +65,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'blog.views.global_setting',
             ],
         },
     },
@@ -107,6 +108,10 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
     )
 
+# 网站基本信息配置
+SITE_NAME = "Jeff's blog"
+SITE_DESC = "Python 开发"
+PRO_EMAIL = "wxl.pure@gmail.com"
 
 # 自定义日志输出信息
 LOGGING = {
