@@ -1,0 +1,564 @@
+2016-06-28 21:08:02,079 [Thread-2:7056] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\interviewprojects\blog_project\blog\views.py", line 18, in index
+    return render(request, 'index.html', locals())
+  File "G:\django1_8\gogoup\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 208, in render
+    with context.bind_template(self):
+  File "c:\python27\Lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\context.py", line 235, in bind_template
+    updates.update(processor(self.request))
+  File "G:\interviewprojects\blog_project\blog\views.py", line 8, in global_setting
+    return {SITE_NAME : settings.SITE_NAME,
+NameError: global name 'SITE_NAME' is not defined
+2016-06-28 21:09:28,178 [Thread-2:9724] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\interviewprojects\blog_project\blog\views.py", line 18, in index
+    return render(request, 'index.html', locals())
+  File "G:\django1_8\gogoup\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 208, in render
+    with context.bind_template(self):
+  File "c:\python27\Lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\context.py", line 235, in bind_template
+    updates.update(processor(self.request))
+  File "G:\interviewprojects\blog_project\blog\views.py", line 8, in global_setting
+    return {SITE_NAME : settings.SITE_NAME,
+NameError: global name 'SITE_NAME' is not defined
+2016-06-28 21:10:36,885 [Thread-8:2340] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\interviewprojects\blog_project\blog\views.py", line 18, in index
+    return render(request, 'index.html', locals())
+  File "G:\django1_8\gogoup\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 208, in render
+    with context.bind_template(self):
+  File "c:\python27\Lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\context.py", line 235, in bind_template
+    updates.update(processor(self.request))
+  File "G:\interviewprojects\blog_project\blog\views.py", line 8, in global_setting
+    return {SITE_NAME : settings.SITE_NAME,
+NameError: global name 'SITE_NAME' is not defined
+2016-06-28 21:11:17,346 [Thread-7:9264] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-28 21:11:17,368 [Thread-8:10040] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2016-06-28 21:11:17,746 [Thread-9:10060] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2016-06-28 21:11:18,206 [Thread-10:8844] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2016-06-28 21:11:18,769 [Thread-11:8052] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2016-06-28 21:11:31,305 [Thread-12:2844] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-28 21:11:31,752 [Thread-13:10148] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2016-06-28 21:11:31,861 [Thread-14:9224] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2016-06-28 21:11:31,908 [Thread-15:9680] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2016-06-28 21:11:31,921 [Thread-16:9048] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2016-06-28 21:11:45,473 [Thread-31:7032] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-28 21:11:45,479 [Thread-32:8724] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2016-06-28 21:11:45,509 [Thread-33:3312] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2016-06-28 21:11:45,543 [Thread-34:9452] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2016-06-28 21:11:45,549 [Thread-35:9384] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2016-06-30 23:11:21,819 [Thread-56:8252] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-30 23:11:21,822 [Thread-57:1168] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2016-06-30 23:11:21,930 [Thread-58:1216] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2016-06-30 23:11:21,960 [Thread-59:7856] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2016-06-30 23:11:22,009 [Thread-60:3888] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2016-06-30 23:11:22,236 [Thread-61:5600] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-06-30 23:11:22,533 [Thread-62:6148] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2016-06-30 23:11:22,552 [Thread-63:10360] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2016-06-30 23:11:22,558 [Thread-64:4108] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2016-06-30 23:11:22,562 [Thread-65:5292] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2016-07-01 03:55:14,032 [Thread-2:7912] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/
+Traceback (most recent call last):
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "c:\python27\Lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "G:\interviewprojects\blog_project\blog_project\urls.py", line 24, in <module>
+    url(r'^admin/upload/(?P<dir_name>[^/]+)$', upload_image, name='upload_image'),
+NameError: name 'upload_image' is not defined
+2016-07-01 12:27:17,941 [Thread-34:3512] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/avatar/default.png
+2016-07-01 14:54:39,219 [Thread-80:10216] [django.request:170] [base:get_response] [WARNING]- Not Found: /admin/upload/kindeditor
+2016-07-01 14:57:31,397 [Thread-2:10580] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/upload/kindeditor
+Traceback (most recent call last):
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "G:\django1_8\gogoup\lib\site-packages\django\middleware\common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\urlresolvers.py", line 647, in is_valid_path
+    resolve(path, urlconf)
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\urlresolvers.py", line 522, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "c:\python27\Lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "G:\interviewprojects\blog_project\blog_project\urls.py", line 20, in <module>
+    from blog.upload import upload_image
+ImportError: No module named upload
+2016-07-01 14:59:54,664 [Thread-3:10612] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/4/
+Traceback (most recent call last):
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "c:\python27\Lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "G:\interviewprojects\blog_project\blog_project\urls.py", line 20, in <module>
+    from blog.upload import upload_image
+ImportError: No module named upload
+2016-07-01 15:00:11,960 [Thread-4:10540] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/4/
+Traceback (most recent call last):
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "c:\python27\Lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "G:\interviewprojects\blog_project\blog_project\urls.py", line 20, in <module>
+    from blog.upload import upload_image
+ImportError: No module named upload
+2016-07-01 15:00:15,670 [Thread-5:9420] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/
+Traceback (most recent call last):
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "c:\python27\Lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "G:\interviewprojects\blog_project\blog_project\urls.py", line 20, in <module>
+    from blog.upload import upload_image
+ImportError: No module named upload
+2016-07-01 15:00:19,884 [Thread-6:4120] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog
+Traceback (most recent call last):
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\handlers\base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "G:\django1_8\gogoup\lib\site-packages\django\middleware\common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\urlresolvers.py", line 647, in is_valid_path
+    resolve(path, urlconf)
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\urlresolvers.py", line 522, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "c:\python27\Lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "G:\interviewprojects\blog_project\blog_project\urls.py", line 20, in <module>
+    from blog.upload import upload_image
+ImportError: No module named upload
+2016-07-01 15:04:56,723 [Thread-35:8920] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-01 15:04:56,809 [Thread-36:8524] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2016-07-01 15:04:57,140 [Thread-37:11200] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2016-07-01 15:04:57,378 [Thread-38:9852] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2016-07-01 15:04:57,381 [Thread-39:10012] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2016-07-01 15:04:57,670 [Thread-40:8540] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-01 15:04:57,943 [Thread-41:9360] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2016-07-01 15:04:57,973 [Thread-42:9652] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2016-07-01 15:04:58,006 [Thread-43:7816] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2016-07-01 15:04:58,028 [Thread-44:10472] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2016-07-01 15:28:57,266 [Thread-62:11144] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\interviewprojects\blog_project\blog\views.py", line 18, in index
+    return render(request, 'index.html', locals())
+  File "G:\django1_8\gogoup\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader_tags.py", line 135, in render
+    return compiled_parent._render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader_tags.py", line 151, in render
+    template = context.template.engine.get_template(template)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\engine.py", line 167, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\engine.py", line 146, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: ad.html
+2016-07-01 15:30:49,937 [Thread-68:6256] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\interviewprojects\blog_project\blog\views.py", line 18, in index
+    return render(request, 'index.html', locals())
+  File "G:\django1_8\gogoup\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader_tags.py", line 135, in render
+    return compiled_parent._render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader_tags.py", line 151, in render
+    template = context.template.engine.get_template(template)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\engine.py", line 167, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\engine.py", line 146, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: ad.html
+2016-07-01 15:33:07,194 [Thread-7:11016] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-01 16:26:31,717 [Thread-2:7944] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\interviewprojects\blog_project\blog\views.py", line 18, in index
+    return render(request, 'index.html', locals())
+  File "G:\django1_8\gogoup\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader_tags.py", line 135, in render
+    return compiled_parent._render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader_tags.py", line 151, in render
+    template = context.template.engine.get_template(template)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\engine.py", line 167, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\engine.py", line 146, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: pagination.html
+2016-07-01 16:27:06,494 [Thread-13:7412] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-01 16:28:43,187 [Thread-23:9340] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-01 16:28:43,726 [Thread-28:9992] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-01 16:30:45,296 [Thread-34:8680] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-01 16:30:46,007 [Thread-39:11232] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-01 16:34:20,812 [Thread-7:5172] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-01 16:34:21,023 [Thread-12:5808] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-01 16:37:53,101 [Thread-18:8380] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-01 16:38:04,492 [Thread-23:10256] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\interviewprojects\blog_project\blog\views.py", line 18, in index
+    return render(request, 'index.html', locals())
+  File "G:\django1_8\gogoup\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader_tags.py", line 113, in render
+    compiled_parent = self.get_parent(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader_tags.py", line 110, in get_parent
+    return context.template.engine.get_template(parent)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\engine.py", line 167, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\engine.py", line 141, in find_template
+    source, display_name = loader(name, dirs)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loaders\base.py", line 13, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loaders\base.py", line 23, in load_template
+    template = Template(source, origin, template_name, self.engine)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 190, in __init__
+    self.nodelist = engine.compile_string(template_string, origin)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\engine.py", line 261, in compile_string
+    return parser.parse()
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 341, in parse
+    compiled_result = compile_func(self, token)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\defaulttags.py", line 872, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 348, in parse
+    self.unclosed_block_tag(parse_until)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\debug.py", line 65, in unclosed_block_tag
+    raise self.source_error(source, msg)
+TemplateSyntaxError: Unclosed tag 'for'. Looking for one of: empty, endfor 
+2016-07-01 16:38:07,989 [Thread-24:7908] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\interviewprojects\blog_project\blog\views.py", line 18, in index
+    return render(request, 'index.html', locals())
+  File "G:\django1_8\gogoup\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader_tags.py", line 113, in render
+    compiled_parent = self.get_parent(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader_tags.py", line 110, in get_parent
+    return context.template.engine.get_template(parent)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\engine.py", line 167, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\engine.py", line 141, in find_template
+    source, display_name = loader(name, dirs)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loaders\base.py", line 13, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loaders\base.py", line 23, in load_template
+    template = Template(source, origin, template_name, self.engine)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 190, in __init__
+    self.nodelist = engine.compile_string(template_string, origin)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\engine.py", line 261, in compile_string
+    return parser.parse()
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 341, in parse
+    compiled_result = compile_func(self, token)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\defaulttags.py", line 872, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 348, in parse
+    self.unclosed_block_tag(parse_until)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\debug.py", line 65, in unclosed_block_tag
+    raise self.source_error(source, msg)
+TemplateSyntaxError: Unclosed tag 'for'. Looking for one of: empty, endfor 
+2016-07-01 16:39:13,257 [Thread-30:6736] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\interviewprojects\blog_project\blog\views.py", line 18, in index
+    return render(request, 'index.html', locals())
+  File "G:\django1_8\gogoup\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader_tags.py", line 113, in render
+    compiled_parent = self.get_parent(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader_tags.py", line 110, in get_parent
+    return context.template.engine.get_template(parent)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\engine.py", line 167, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\engine.py", line 141, in find_template
+    source, display_name = loader(name, dirs)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loaders\base.py", line 13, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loaders\base.py", line 23, in load_template
+    template = Template(source, origin, template_name, self.engine)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 190, in __init__
+    self.nodelist = engine.compile_string(template_string, origin)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\engine.py", line 261, in compile_string
+    return parser.parse()
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 341, in parse
+    compiled_result = compile_func(self, token)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\defaulttags.py", line 872, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 348, in parse
+    self.unclosed_block_tag(parse_until)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\debug.py", line 65, in unclosed_block_tag
+    raise self.source_error(source, msg)
+TemplateSyntaxError: Unclosed tag 'for'. Looking for one of: empty, endfor 
+2016-07-01 16:40:26,875 [Thread-2:10724] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\interviewprojects\blog_project\blog\views.py", line 19, in index
+    return render(request, 'index.html', locals())
+  File "G:\django1_8\gogoup\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader_tags.py", line 113, in render
+    compiled_parent = self.get_parent(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader_tags.py", line 110, in get_parent
+    return context.template.engine.get_template(parent)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\engine.py", line 167, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\engine.py", line 141, in find_template
+    source, display_name = loader(name, dirs)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loaders\base.py", line 13, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loaders\base.py", line 23, in load_template
+    template = Template(source, origin, template_name, self.engine)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 190, in __init__
+    self.nodelist = engine.compile_string(template_string, origin)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\engine.py", line 261, in compile_string
+    return parser.parse()
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 341, in parse
+    compiled_result = compile_func(self, token)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\defaulttags.py", line 872, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 348, in parse
+    self.unclosed_block_tag(parse_until)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\debug.py", line 65, in unclosed_block_tag
+    raise self.source_error(source, msg)
+TemplateSyntaxError: Unclosed tag 'for'. Looking for one of: empty, endfor 
+2016-07-01 16:40:43,293 [Thread-3:10532] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\django1_8\gogoup\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\interviewprojects\blog_project\blog\views.py", line 19, in index
+    return render(request, 'index.html', locals())
+  File "G:\django1_8\gogoup\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader_tags.py", line 113, in render
+    compiled_parent = self.get_parent(context)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loader_tags.py", line 110, in get_parent
+    return context.template.engine.get_template(parent)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\engine.py", line 167, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\engine.py", line 141, in find_template
+    source, display_name = loader(name, dirs)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loaders\base.py", line 13, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\loaders\base.py", line 23, in load_template
+    template = Template(source, origin, template_name, self.engine)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 190, in __init__
+    self.nodelist = engine.compile_string(template_string, origin)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\engine.py", line 261, in compile_string
+    return parser.parse()
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 341, in parse
+    compiled_result = compile_func(self, token)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\defaulttags.py", line 872, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\base.py", line 348, in parse
+    self.unclosed_block_tag(parse_until)
+  File "G:\django1_8\gogoup\lib\site-packages\django\template\debug.py", line 65, in unclosed_block_tag
+    raise self.source_error(source, msg)
+TemplateSyntaxError: Unclosed tag 'for'. Looking for one of: empty, endfor 
+2016-07-01 16:42:05,612 [Thread-11:11188] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-01 16:42:37,973 [Thread-16:10536] [django.request:170] [base:get_response] [WARNING]- Not Found: /base.html
+2016-07-01 16:44:14,259 [Thread-33:9992] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-01 16:44:14,539 [Thread-38:9944] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-07-01 16:44:16,917 [Thread-48:5524] [django.request:170] [base:get_response] [WARNING]- Not Found: /base.html

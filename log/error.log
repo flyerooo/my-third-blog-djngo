@@ -1,0 +1,5 @@
+2016-07-01 16:34:19,698 [Thread-2:7664] [blog.views:17] [views:index] [ERROR]- global name 'Category' is not defined
+2016-07-01 16:37:52,118 [Thread-13:11244] [blog.views:17] [views:index] [ERROR]- global name 'Category' is not defined
+2016-07-01 16:38:04,464 [Thread-23:10256] [blog.views:17] [views:index] [ERROR]- global name 'Category' is not defined
+2016-07-01 16:38:07,971 [Thread-24:7908] [blog.views:17] [views:index] [ERROR]- global name 'Category' is not defined
+2016-07-01 16:39:13,249 [Thread-30:6736] [blog.views:17] [views:index] [ERROR]- global name 'Category' is not defined
